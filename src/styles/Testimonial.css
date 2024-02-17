@@ -1,0 +1,71 @@
+.latest-reviews{
+    text-align: center;
+    margin-top: 40px;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 300px;
+}
+.card-1 , .card-2{
+    width: 48%;
+    background-color: #F7F7F7;
+    margin: 10px;
+}
+.card-1{
+    border-right: 3px solid #F7941D;
+}
+.card-1 img,
+.card-2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+p{
+    text-align: center;
+}
+
+.AuthorName{
+    font-size: large;
+    font-weight: bold;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.arrow .react-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow .forward {
+    color: #F7941D;
+}
+hr{
+    margin-top: 30px;
+    width: 100%;
+}
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      height: 550px;
+    }
+  
+    .card-1,
+    .card-2 {
+      width: 100%;
+    }
+  
+    .card-1 {
+        border-right: 3px solid #F7941D;
+    }
+  }

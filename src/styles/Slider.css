@@ -1,0 +1,119 @@
+.slider-container{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    border: 1px solid white;
+    height: 550px;
+    margin-top: 20px;
+    background-image: url(../images/sambike.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-color: rgb(236, 249, 255);
+}
+.slider-text{
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.collection-button{
+    width: 180px;
+    padding: 10px;
+    background-color: #0F75BC;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.text-wrapper{
+    width: 30%;
+    margin-top: 190px;
+    margin-left: 20px;
+}
+
+
+.slider-buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-button {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.orange-button {
+    background-color: #F7941D;
+    width: 25px;
+    border-radius: 20%;
+}
+
+
+/* @media (max-width: 768px) {
+    .slider-container {
+        background-position: center;
+        text-align: center;
+        height: auto;
+        padding: 40px;
+        width: 300px;
+    }
+
+    .text-wrapper {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .slider-container {
+        background-size: cover;
+        
+    }
+} */
+
+/* Media query for medium-sized screens */
+@media (max-width: 768px) {
+    .slider-container {
+        background-position: center;
+        background-size: contain; /* Adjust the background size to maintain the aspect ratio */
+        text-align: center;
+        height: auto;
+        padding: 40px;
+        width: 90%; /* Adjust the width to be more responsive */
+    }
+
+    .text-wrapper {
+        width: 100%; /* Utilize the full width for text on smaller screens */
+        margin-top: 20px;
+    }
+    .slider-text {
+        font-size: large; /* Adjust the font size for smaller screens */
+    }
+    .collection-button {
+        width: 100%; /* Utilize the full width for the button on smaller screens */
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .slider-container {
+        background-size: cover; /* Make the background image cover the container */
+    }
+}
+
+
+
+
+
+
+

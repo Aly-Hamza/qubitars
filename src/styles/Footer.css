@@ -1,0 +1,132 @@
+
+  /* Footer */
+  .footer-main{
+    margin-top: 40px;
+  }
+  .footer-top {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.footer-top p {
+    width: 50%;
+    text-align: center;
+}
+
+ .footer-search {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.Footer-search-container {
+  height: 40px;
+  width: 300px;
+  background-color: #FFF;
+  position: relative;
+  border-radius: 30px;
+  padding: 3px 50px 3px 10px;
+  border: 1px solid grey;
+  
+}
+.Footer-Subsribe-box {
+  background-color: transparent;
+  outline: none;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  width: 100%;
+}
+.Footer-button {
+  position: absolute;
+  right: 0.001px;
+  top:0.1px;
+  background-color:#F7941D;
+  border: 0;
+  color: #FFF;
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+
+}
+
+.search-button:focus {
+  outline: none;
+}
+
+.footer-five-section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-five-section .box {
+    width: 20%;
+    height: 180px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.footer-five-section .box h4 {
+    color: #F7941D;
+    font-weight: bolder;
+    font-size:25px;
+    margin: 0%;
+}
+
+.footer-five-section ul li {
+    list-style-type: none;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left:-35px;
+}
+
+/* Media Query for screens up to 600px wide (e.g., mobile devices) */
+@media (max-width: 600px) {
+    .footer-search{
+        flex-direction: column;
+    }
+
+    .custom-input {
+        width: 100%;
+        max-width: 100%;
+    }
+.custom-button{
+    width: 130px;
+        height: 63px;
+        margin-right: 10px;
+}
+    .custom-button {
+        right: 0;
+    }
+         .footer-five-section .box {
+             width: 45%;
+    
+         }
+    .footer-search-left h2{
+        margin-top: 20px;
+    }
+}
+
+/* Media Query for screens between 601px and 1200px wide (e.g., tablets) */
+@media (min-width: 601px) and (max-width: 1200px) {
+    .footer-five-section .box {
+        width: 30%;
+}
+}

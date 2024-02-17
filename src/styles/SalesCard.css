@@ -1,0 +1,22 @@
+.custom-container-sales-card{
+    width: 90% !important;
+    margin: auto !important;
+}
+.lower-left{
+    width: 99%;
+    height: 180px;
+    background-image: url(../images/my275-1-removebg-preview\ \(1\).jpg);
+    background-size: 320px 200px;
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.right-section{
+    width: 36%;
+    background-image: url(../images/cycle.jpg);
+    background-repeat: no-repeat;
+    background-size: 420px 400px;
+    cursor: pointer;
+}
